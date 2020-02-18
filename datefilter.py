@@ -9,8 +9,8 @@ import operator
 f2 = open('output.txt', 'w')
 f2.write('\n')
 f2.close()
-
 f2 = open('output.txt', 'a')
+
 for root, dirs, files in os.walk('data'):
     # print(root,dirs,files)
     path = root.split(os.sep)
